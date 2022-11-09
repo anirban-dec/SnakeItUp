@@ -57,7 +57,7 @@ function gameEngine(){
         loseMusic.play();
         backroundmusic.pause();
         direction={x:0,y:0};
-         alert("Game Over..Play Aging?")
+         alert("Game Over...Play Again?")
         snakeArr=[{x:3, y:4}];
         backroundmusic.play();
         backroundmusic.loop=true;
